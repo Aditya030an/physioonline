@@ -12,7 +12,7 @@ import Onlineprocess from "./Component/Onlineprocess.jsx";
 import Footer from "./Component/Footer.jsx";
 import ForgotPassword from "./Component/ForgotPassword.jsx";
 import Login from "./Component/Login.jsx";
-import Signup from "./Component/Signup.jsx";
+import SignUp from "./Component/SignUp.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Dashboard from "./Component/Dashboard.jsx";
@@ -33,7 +33,7 @@ function App() {
         {/* Define routes for Home only */}
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/forgotPassword" element={<ForgotPassword />} />
           <Route path="/" element={<Home />} />
           <Route path="Appointment" element={<Appointment />} />
