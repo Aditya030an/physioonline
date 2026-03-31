@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaFacebookF, FaEnvelope,FaMapMarkerAlt,FaArrowRight,FaPhoneAlt , FaInstagram,  FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaEnvelope,FaArrowRight,FaPhoneAlt , FaInstagram,  FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom"
 const Footer = () => {
   return (
@@ -78,26 +78,33 @@ const Footer = () => {
 
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-[#00C4CD]" />
-              info@movementrehab.com
+              info@movementrehab.in
             </li>
 
-            <li className="flex items-start gap-3">
-  <FaMapMarkerAlt className="text-[#00C4CD] mt-1" />
+            <li className="flex items-start">
   <div className="text-sm text-gray-600 leading-relaxed">
-  <p className="mt-3 font-semibold text-[#003A80]">
+    
+    {/* Location 1 */}
+    <p className="mt-3 font-semibold text-[#003A80]">
       Movement Rehab
     </p>
     <p>
       Akhand Param Dham, Near NDP's School, Khandwa Road, Indore 452020
     </p>
-    <p className="font-semibold text-[#003A80]">
-      MaAYA'S BODY CARE
+    <p className="text-[#00C4CD] font-medium">
+      ⏰ 9:00 AM – 1:00 PM
+    </p>
+
+    {/* Location 2 */}
+    <p className="mt-3 font-semibold text-[#003A80]">
+      MAYA'S BODY CARE
     </p>
     <p>
       438, Treasure Town, Bijalpur, Indore, Madhya Pradesh 452012
     </p>
-
-    
+    <p className="text-[#00C4CD] font-medium">
+      ⏰ 6:00 PM – 8:00 PM
+    </p>
 
   </div>
 </li>
@@ -139,7 +146,7 @@ const Footer = () => {
 {[
   {
     icon: FaFacebookF,
-    link: "https://facebook.com/digitalpetclinic"
+    link: "https://www.facebook.com/share/17xeGBg4Wg/"
   },
   {
     icon: FaInstagram,
@@ -147,7 +154,7 @@ const Footer = () => {
   },
   {
     icon: FaWhatsapp,
-    link: "https://wa.me/919424094362"
+    link: "https://wa.me/message/INE4UXIOMRKYP1"
   },
   {
     icon: FaYoutube,

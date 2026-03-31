@@ -12,7 +12,7 @@ import Onlineprocess from "./Component/Onlineprocess.jsx";
 import Footer from "./Component/Footer.jsx";
 import ForgotPassword from "./Component/ForgotPassword.jsx";
 import Login from "./Component/Login.jsx";
-import SignUp from "./Component/SignUp.jsx";
+import Signup from "./Component/Signup.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Dashboard from "./Component/Dashboard.jsx";
@@ -24,6 +24,8 @@ import FAQ from "./Component/FAQ.jsx";
 import Physioconnect from "./Component/Physioconnect.jsx"
 import Blogs from "./Component/Blogs.jsx"
 import Profile from "./Component/profile.jsx"
+import Permises from "./Component/permises.jsx"
+import chatbot from "./Component/Chatbot.jsx"
 function App() {
   return (
     <Router>
@@ -33,7 +35,7 @@ function App() {
         {/* Define routes for Home only */}
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/forgotPassword" element={<ForgotPassword />} />
           <Route path="/" element={<Home />} />
           <Route path="Appointment" element={<Appointment />} />
@@ -46,7 +48,9 @@ function App() {
           <Route path="Physioconnect" element={<Physioconnect />} />
           <Route path="Blogs" element={<Blogs />} />
           <Route path="Profile" element={<Profile />} />
-
+          <Route path="Permises" element={<Permises />} />
+          
+          <Route path="chatbot" element={<chatbot />} />
           <Route
             path="Dashboard"
             element={

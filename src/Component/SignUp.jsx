@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const API_URL = import.meta.env.VITE_APP_API_URL || "http://localhost:8080";
-const SignUp = () => {
+const Signup = () => {
   const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -99,4 +99,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Signup;

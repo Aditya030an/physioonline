@@ -144,92 +144,7 @@ const AboutUs = () => {
   </div>
 
 </section>
-<section className="pt-16 pb-28 px-6 lg:px-20 bg-gray-50">
 
-  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-start">
-
-    {/* LEFT SIDE */}
-
-    <div>
-
-      <p className="text-[#00C4CD] font-semibold tracking-wide mb-4">
-        OUR VALUES
-      </p>
-
-      <h2 className="text-4xl lg:text-5xl font-semibold text-[#003A80] mb-6 leading-tight">
-        The Principles That Guide <br />
-        Everything We Do
-      </h2>
-
-      <p className="text-lg text-gray-600 max-w-lg">
-        At Movement Rehab, our approach to physiotherapy is guided
-        by a strong commitment to compassionate care, professional
-        excellence, and long-term patient wellness.
-      </p>
-
-    </div>
-
-
-    {/* RIGHT SIDE VALUES */}
-
-    <div className="space-y-12">
-
-      <div className="border-l-4 border-[#00C4CD] pl-6">
-
-        <h3 className="text-2xl font-semibold text-[#003A80] mb-2">
-          Compassionate Care
-        </h3>
-
-        <p className="text-gray-600">
-        We believe every patient should receive physiotherapy care with empathy, understanding, and attentive support throughout their rehabilitation journey.
-
-        </p>
-
-      </div>
-
-      <div className="border-l-4 border-[#00C4CD] pl-6">
-
-        <h3 className="text-2xl font-semibold text-[#003A80] mb-2">
-          Clinical Excellence
-        </h3>
-
-        <p className="text-gray-600">
-        Our physiotherapy treatments are based on modern, evidence-based practices and continuous professional development, ensuring high standards of rehabilitation care.
-
-        </p>
-
-      </div>
-
-      <div className="border-l-4 border-[#00C4CD] pl-6">
-
-        <h3 className="text-2xl font-semibold text-[#003A80] mb-2">
-          Personalized Treatment
-        </h3>
-
-        <p className="text-gray-600">
-        Each patient receives a rehabilitation program tailored to their condition, functional goals, and lifestyle, supporting effective and meaningful recovery.
-
-        </p>
-
-      </div>
-
-      <div className="border-l-4 border-[#00C4CD] pl-6">
-
-        <h3 className="text-2xl font-semibold text-[#003A80] mb-2">
-          Long-Term Wellness
-        </h3>
-
-        <p className="text-gray-600">
-        Our focus goes beyond short-term recovery. We aim to help patients improve strength, mobility, and confidence for long-term physical health and independence.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
 
 {/* principles */}
 <section className="w-full bg-gradient-to-b from-white to-gray-50 py-20 px-6 md:px-16">
@@ -241,7 +156,7 @@ const AboutUs = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#003A80] leading-tight">
             The Principles That Guide Our Practice
           </h2>
 
@@ -355,6 +270,12 @@ const AboutUs = () => {
         <p className="text-gray-600 mt-3">
           Specialized in stroke rehabilitation, neuro recovery, and functional movement therapy.
         </p>
+        <Link
+    to="/profile"
+    className="mt-2 inline-block text-[#00C4CD] font-semibold hover:underline transition"
+  >
+    Read More →
+  </Link>
 
       </div>
     </div>

@@ -7,13 +7,15 @@ import { FaInstagram, FaArrowRight } from "react-icons/fa";
 import home1 from "./photos/home-bg.mp4";
 import Offering from "./Offering";
 import { Link } from "react-router-dom";
+import Chatbot from "./Chatbot";
+
 
 const Home = () => {
   const navigate = useNavigate();
 
   const posts = [
-    "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
-    "https://images.unsplash.com/photo-1584515933487-779824d29309",
+    "https://plus.unsplash.com/premium_photo-1661962597572-e0a140d8bc20?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGh5c2lvdGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1706353399656-210cca727a33?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGh5c2lvdGhlcmFweSUyMHRyZWF0bWVudHxlbnwwfHwwfHx8MA%3D%3D",
     "https://images.unsplash.com/photo-1594824476967-48c8b964273f",
     "https://images.unsplash.com/photo-1579154204601-01588f351e67",
     "https://images.unsplash.com/photo-1580281658629-8c6d0cfc37c2",
@@ -201,7 +203,7 @@ Follow us for physiotherapy tips, recovery exercises & health updates
   </div>
 
 </div>
-
+<Chatbot></Chatbot>
 </section>
     </div>
   );
